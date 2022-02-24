@@ -1,0 +1,20 @@
+
+#foot{
+    color:brown;
+}
+ /* CSS reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 970px;
+    min-height: 200px;
+    background-color: beige;
+    margin: 25px;
+    padding: 20px;
+}
+
+/* padding => creating space from parent to children */
+/* margin => creates space between sibling components */
