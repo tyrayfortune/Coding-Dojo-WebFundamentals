@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 980px;
+    height: 980px;
+    padding: 10px;
+    display: flex;
+}
+
+#left_col{
+    flex: 3;
+
+}
+
+#right_col{
+    flex: 2;
+    display: flex;
+}
+
+.nav_bar{
+    width: 1000px;
+    height: 100px;
+    background-color: grey;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+.button{
+    font-size: large;
+    background-color: rgb(31, 56, 138);
+    color: white;
+    border-radius: 10%;
+    width: 100px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px #110909;
+}
+
+.searchbar{
+    width: 250px;
+    height: 30px;
+}
+
+.top_box{
+    width: 596px;
+    height: 300px;
+    border: 2px solid darkgray;
+}
+
+#definitions{
+    padding-top: 50px;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+#definitions h2{
+    margin-top: 10px;
+}
+
+#definitions h4{
+    margin-top: 10px;
+}
+
+#info{
+    width: 200px;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+.likes{
+    font-size: large;
+    background-color: orange;
+    margin-top: 30px;
+    margin-left: 50px;
+    box-shadow: 5px 5px 5px #110909;
+}
+
+.bottom_box{
+    width: 596px;
+    height: 300px;
+    border: 2px solid darkgray;
+}
+
+#rc_top{
+    margin-left: 10px;
+    width: 376px;
+    height: 300px;
+    border: 2px solid darkgray;
+
+    
+}
+
+.defined{
+    display: flex;
+    width: 320px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+#add_def button{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: rgb(43, 155, 43);
+    box-shadow: 5px 5px 5px #110909;
+

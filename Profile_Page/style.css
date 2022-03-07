@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1200px;
+    height: 1200px;
+    margin-left: 100px;
+    display:flex;
+}
+
+#left_col{
+    flex: 3;
+}
+
+#right_col{
+    flex: 2;
+}
+
+.nav{
+    width: 1020px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 75px;
+}
+
+.nav-links{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-title{
+    color: white;
+}
+
+.nav-links a{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(192, 192, 192);
+}
+
+#active{
+    color: white;
+}
+
+.button{
+    margin-left: 425px;
+    background-color:rgb(36, 133, 133);
+    color: white;
+    font-size: large;
+    width: 100px;
+}
+
+
+.header{
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.info_box{
+    width: 400px;
+    margin-top: 20px;
+}
+
+#user_photo{
+    width: 100px;
+    margin-top: 52px;
+    margin-left: 20px;
+border-radius: 50%;
+}
+
+.jane{
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.space_between{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#map_marker{
+    margin-left: 10px;
+}
+
+h1{
+    margin-left: 10px;
+}
+
+#user_box{
+    margin-top: 25px;
+    display: inline-block;
+    width: 600px;
+    height: 350px;
+    border: 2px solid grey;
+}
+
+#education_bar{
+    width: 300px;
+    margin-top: 75px;
+}
+
+#connection_requests{
+    width: 300px;
+    margin-top: 25px;
+    height: 60px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.two{
+    border-style:initial;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    font-size: large;
+}
+
+.cr_names{
+    width: 276px;
+    height: 110px;
+    padding: 10px;
+    border: 2px solid grey;
+}
+
+.cr_names img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.cr_names h3{
+    margin-left: 50px;
+}
+
+.pic_distance{
+    margin-left: 39px;
+    padding-right: 10px;
+}
+
+.first_row{
+    display:flex;
+}
+
+.second_row{
+    margin-top: 20px;
+    display: flex;
+}
+
+.pic_distance2{
+    margin-left: 44px;
+    padding-right: 10px;
+}
+
+#your_connections{
+    width: 300px;
+    margin-top: 25px;
+    height: 60px;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fivehundred{
+    border-style:initial;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    font-size: large;
+    margin-right: 10px;
+}
+
+.yc_names{
+    width: 296px;
+    height: 250px;
+    border: 2px solid grey;
+    
+}
+
+
+
+.yc_names img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.view_more{
+    width: 286px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: larger;
+    border: 2px solid grey;
+    display: flex;
+    align-items: center;
+}
+
+.view_more a{
+    color: rgb(12, 76, 172);
+}
+
+#education_bar{
+    width: 590px;
+    background-color: rgb(41, 40, 40);
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#education_bar{
+    padding-left: 10px;
+}
+
+.final_box{
+    width: 586px;
+    height: 150px;
+    padding-left: 10px;
+    border: 2px solid grey;
+
+}
+
+.final_box h4{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: grey;
+}
+
+.final_box h2{
+    margin-left: 10px;
+}
+
+.final_box h3{
+    margin-left: 10px;
+    margin-top: 15px;
+}

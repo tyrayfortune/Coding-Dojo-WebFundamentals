@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 900px;
+    height: 600px;
+    background-color: gold;
+}
+
+.second_color{
+    height:200px;
+    background-color: black;
+    display:flex
+}
+
+.third_color{
+    height: 200px;
+    background-color: red;
+
+}

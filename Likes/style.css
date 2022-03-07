@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_bar{
+    width: 1000px;
+    height: 70px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+#container{
+    width: 1000px;
+    height: 1000px;
+    margin-left: 100px;
+    display: flex;
+
+}
+
+.nav_bar h1{
+    color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#left_col{
+    flex: 1;
+}
+
+#right_col{
+    flex: 3;
+}
+
+.your_feed{
+    margin-left: 500px;
+}
+
+.tr_box{
+    width: 560px;
+    height: 200px;
+    margin: 0px 50px;
+    padding: 20px;
+    border: 3px solid black;
+    margin-bottom: 20px;
+}
+
+.contents{
+    display: flex;
+}
+
+.contents  button{
+max-height: 40px;
+width: 100px;
+font-size: 30px;
+background-color: orange;
+}
+
+.contents h3{
+    margin-left: 260px;
+    margin-right: 30px;
+}
+
+.wording{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.contents2{
+    display: flex;
+}
+
+.contents2 button{
+    max-height: 40px;
+width: 100px;
+font-size: 30px;
+background-color: orange;
+border: 2px solid black;
+box-shadow: 4px 4px;
+}
+
+.contents2 h3{
+    margin-left: 210px;
+    margin-right: 30px;
+}
+
+.wording2{
+    font-size: 25px;
+    margin-top: 100px;
+}
+
+.contents  button{
+    max-height: 40px;
+    width: 100px;
+    font-size: 30px;
+    background-color: orange;
+    border: 2px solid black;
+    box-shadow: 4px 4px;
+    }
+
+#tl_col{
+    width: 300px;
+    height: 300px;
+border: 3px solid black;
+}
+
+#tl_col img {
+    width: 150px;
+    margin: 20px 70px;
+}
+
+#tl_col a{
+    margin-left: 95px;
+    color: aqua;
+}
+
+#tl_col h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}

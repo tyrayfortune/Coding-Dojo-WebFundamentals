@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+width: 1000px;
+height: 800px;
+display: flex;
+align-items: center;
+margin: 0 auto;
+}
+
+#profile_card{
+    width: 600px;
+    height: 350px;
+    border: 1px solid grey;
+}
+
+.header{
+    width: 600px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.info_box{
+    width: 400px;
+    height: 300px;
+    margin-top: 20px;
+}
+
+#user_photo{
+    width: 100px;
+    margin-top: 52px;
+    margin-left: 20px;
+
+}
+
+.jane{
+    margin-top: 50px;
+}
+
+h3{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.space_between{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#map_marker{
+    margin-left: 10px;
+}
+
+h1{
+    margin-left: 10px;
+}

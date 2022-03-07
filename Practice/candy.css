@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 1200px;
+    height: 1200px;
+    display: flex;
+}
+
+#left_col{
+    min-width: 500px;
+    background-color: aqua;
+    flex: 2;
+}
+
+#right_col{
+    min-width: 500px;
+    background-color: blueviolet;
+    flex: 1;
+}
